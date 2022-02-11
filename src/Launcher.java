@@ -4,7 +4,7 @@ public class Launcher {
 
 
     public static void main(String[] args) {
-        List<Command> commandes = List.of(new Quit(),new Fibo(),new Freq());
+        List<Command> commandes = List.of(new Quit(),new Fibo(),new Freq(),new Predict());
         System.out.println("Bienvenu");
         Scanner scanner= new Scanner(System.in);
         do {
